@@ -8,5 +8,4 @@ admin.site.index_title = "Welcome to Ice Creame lelo"
 urlpatterns = [
     path('', include('home.urls')),
     path('admin/', admin.site.urls),
-    path('login/', include('login.urls'))
 ]
